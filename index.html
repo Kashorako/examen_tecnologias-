@@ -1,0 +1,92 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>GRUPO 11 未来</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css.css">
+  <script src="js.js"></script>
+</head>
+
+<body>
+<!--MENU-->
+
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="http://dev.kashorako.com/"><i class="fa fa-fw fa-search"></i> Visitanos</a>
+  <a href="http://dev.kashorako.com/contact/"><i class="fa fa-fw fa-user"></i> Contacto</a>
+  <a href="http://dev.kashorako.com/portfolio/"><i class="fa fa-fw fa-link"></i> Portfolio</a>
+
+  <span style="float: right;" ><a href="#" id="bienvenida"></a></span>
+</div>
+
+<!--CONTENIDO-->
+<div class="grid">
+  <div class="col-9" style="background-image: url('code.jpg');">
+    <img height="200px" src="/code.jpg">
+  </div>
+  <div class="col-3">
+    <p class="left my-10" style="margin-top: 40px">
+      <b>INICIAR SESION</b>
+    </p>
+    <input type="text" id="username" style="width: 90%" class="my-10">
+    <div class="right my-10" style="border: none !important;">
+      <button onclick="login()">INGRESAR</button>
+    </div>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="col-6" style="padding-top: 30px">
+    Cada proyecto es desarrollado con responsabilidad y eficiencia, respetando los tiempos del cliente y aportando innovación a sus requerimientos.<br>
+    Desarrollador freelance, ubicado en Bolivia. Especialista en desarrollo web, ERP, CRM, CMMS, etc.
+    Configuración de servicios AWS, Azure, Google Cloud.
+    Marketing Digital
+    <H3 class="left">Desarrollando con Pasion</H3>
+    Desarrollo responsable y agil a la medida. Todo proyecto es tratado con el mayor detalle y utilizando siempre las mejores herramientas que permitan que sobresalgas del resto.
+  </div>
+  <div class="col-3">
+    <img height="200px" src="http://dev.kashorako.com/wp-content/uploads/2022/10/wolf_t.png">
+  </div>
+
+  <div class="col-3 left">
+    <ul class="fa-ul">
+      <li class="icon-item"><i class="fa-li fa fa-check-square"></i>Responsabilidad</li>
+      <li class="icon-item"><i class="fa-li fas fa-ghost"></i>Eficiencia</li>
+      <li class="icon-item"><i class="fa-li fas fa-gamepad"></i>Ultima Tecnologia</li>
+      <li class="icon-item"><i class="fa-li fas fa-chess"></i>Mejores Practicas</li>
+      <li class="icon-item"><i class="fa-li fas fa-chess-rook"></i>Amabilidad</li>
+      <li class="icon-item"><i class="fa-li far fa-heart"></i>Compromiso</li>
+    </ul>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="col-3">
+    <img height="200px" src="http://dev.kashorako.com/wp-content/uploads/2022/10/samurai_helmet.jpg">
+  </div>
+
+  <div class="col-6" style="padding-top: 30px">
+    Cada proyecto es desarrollado con responsabilidad y eficiencia, respetando los tiempos del cliente y aportando innovación a sus requerimientos.<br>
+    Desarrollador freelance, ubicado en Bolivia. Especialista en desarrollo web, ERP, CRM, CMMS, etc.
+    Configuración de servicios AWS, Azure, Google Cloud.
+    Marketing Digital
+    <H3 class="left">Desarrollando con Pasion</H3>
+    Desarrollo responsable y agil a la medida. Todo proyecto es tratado con el mayor detalle y utilizando siempre las mejores herramientas que permitan que sobresalgas del resto.
+  </div>
+
+  <div class="col-3">
+    <p>
+      CONVERSOR DE MONEDA
+    </p>
+    <input type="text" id="bob" onkeyup="bsDollar()" placeholder="Bs" style="width: 90%" class="my-10">
+    <input type="text" id="usd" onkeyup="dollarBs()" placeholder="USD" style="width: 90%" class="my-10">
+      <button  class="my-10" onclick="clean()">Limpiar</button>
+  </div>
+</div>
+</body>
+
+</html>
